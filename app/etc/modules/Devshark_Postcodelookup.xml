@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Devshark_Postcodelookup>
+            <active>true</active>
+            <codePool>local</codePool>
+			<version>1.4.0</version>
+        </Devshark_Postcodelookup>
+    </modules>
+</config>

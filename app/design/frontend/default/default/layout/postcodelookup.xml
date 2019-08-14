@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<layout>
+	<checkout_onepage_index>     
+	    <reference name="head">			
+			<action method="addJs"><script>postcodelookup/postcodelookup.js</script></action> 
+		</reference>                    
+        <reference name="checkout.onepage.shipping">
+            <action method="setTemplate"><template>devshark/postcodelookup/checkout/onepage/shipping.phtml</template></action>
+        </reference>
+		<reference name="checkout.onepage.billing">
+            <action method="setTemplate"><template>devshark/postcodelookup/checkout/onepage/billing.phtml</template></action>
+        </reference>
+	</checkout_onepage_index>
+	<checkout_multishipping_customer_address>
+	    <reference name="head">			
+			<action method="addJs"><script>postcodelookup/postcodelookup.js</script></action> 
+		</reference>                            
+       <reference name="customer_address_edit">
+            <action method="setTemplate"><template>devshark/postcodelookup/customer/address/edit.phtml</template></action>
+        </reference>
+	</checkout_multishipping_customer_address>
+	<customer_address_form> 
+	     <reference name="head">			
+			<action method="addJs"><script>postcodelookup/postcodelookup.js</script></action> 
+		</reference>                         
+        <reference name="customer_address_edit">
+            <action method="setTemplate"><template>devshark/postcodelookup/customer/address/edit.phtml</template></action>
+        </reference>
+	</customer_address_form>		
+</layout>

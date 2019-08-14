@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>devshark_postcodelookup</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Postcode Lookup Extension</summary>
+    <description>Postcode Lookup Extension will allow you to add address lookup facility to your magento site, improving your image and verification.</description>
+    <notes>Stable release of Postcode Lookup Extension</notes>
+    <authors><author><name>Devshark</name><user>auto-converted</user><email>info@devshark.co.uk</email></author></authors>
+    <date>2010-03-17</date>
+    <time>20:05:54</time>
+    <contents><target name="magelocal"><dir name="Devshark"><dir name="Postcodelookup"><dir name="controllers"><file name="IndexController.php" hash="8144c592c71ee001efdf96c7a7ebd12f"/></dir><dir name="etc"><file name="config.xml" hash="8df95c607055afd1db3bb15575655e5e"/><file name="system.xml" hash="320a28d3a850e24f7f2a0237507ef959"/></dir><dir name="Helper"><file name="Data.php" hash="6caf2a1fd4b06da76c2b7871d62ab200"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="postcodelookup.xml" hash="5ca715ad7a8ddca62a59ed6b9cdbc7a3"/></dir><dir name="template"><dir name="devshark"><dir name="postcodelookup"><dir name="checkout"><dir name="onepage"><file name="billing.phtml" hash="604b8e88fc8c7bb8386f6ca070229eaa"/><file name="shipping.phtml" hash="c21b9c07c770b2fd6764e94d29518491"/></dir></dir><dir name="customer"><dir name="address"><file name="edit.phtml" hash="6d0ae0ef8952b0ccb751edddd20b5628"/></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="postcodelookup"><file name="postcodelookup.js" hash="75c4c50c3a01908fa6296b301655bf61"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Devshark_Postcodelookup.xml" hash="0e856ec0896911397e3e3687214f0b50"/></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>

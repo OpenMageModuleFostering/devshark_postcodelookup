@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Devshark_Postcodelookup>
+			<version>1.4.0</version>
+		</Devshark_Postcodelookup>
+	</modules>
+	 
+	<frontend>
+		 <routers>
+            <devshark_postcodelookup>
+                <use>standard</use>
+                <args>
+                    <module>Devshark_Postcodelookup</module>
+                    <frontName>postcodelookup</frontName>
+                </args>
+            </devshark_postcodelookup>
+        </routers>
+		<layout>
+              <updates>
+                  <devshark_postcodelookup>
+                      <file>postcodelookup.xml</file>
+                  </devshark_postcodelookup>
+              </updates>
+          </layout>
+    </frontend>
+	
+	<global>
+        <helpers>
+            <postcodelookup>
+                <class>Devshark_Postcodelookup_Helper</class>
+            </postcodelookup>
+        </helpers>
+		<models>
+		  <postcodelookup>
+			  <class>Devshark_Postcodelookup_Model</class>
+		  </postcodelookup>
+		</models>
+    </global>
+
+	<default>
+		<postcodelookup>
+			<account>
+				<active>0</active>
+				<model>devshark/postcodelookup</model>
+				<accountname>test</accountname>
+				<accountpassword>test</accountpassword>
+			</account>
+		</postcodelookup>
+	</default>
+	<adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <postcodelookup translate="title" module="customer">
+                                            <title>postcodelookup</title>
+                                            <sort_order>20</sort_order>
+                                        </postcodelookup>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+</config>
