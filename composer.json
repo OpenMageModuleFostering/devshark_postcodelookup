@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/devshark_postcodelookup",
+    "name": "OpenMageModuleFostering\/devshark_postcodelookup",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Postcode Lookup Extension",
     "authors": [
-    {
-        "name": "Devshark",
-        "email": "info@devshark.co.uk"
-    }
-],
+        {
+            "name": "Devshark",
+            "email": "info@devshark.co.uk"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
